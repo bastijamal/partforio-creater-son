@@ -1,0 +1,70 @@
+Bloges=>>>>
+
+    <section class="blogs">
+
+        <div class="blog-left-side">
+            <h6>Blogs</h6>
+            <h1>Latest Blogs</h1>
+            <a href="">View all</a> <img src="./images/right arrow.svg" alt="">
+        </div>
+
+        <div class="blog-right-side">
+
+            <div class="blog">
+                <span>April 16, 2021, 6mins</span>
+                <h2>Design tips for designers, that cover everything you need</h2>
+                <a href="">Read the article <img src="./images/right arrow.svg" alt=""></a>
+            </div>
+
+            <div class="blog">
+                <span>April 16, 2021, 6mins</span>
+                <h2>Design tips for designers, that cover everything you need</h2>
+                <a href="">Read the article <img src="./images/right arrow.svg" alt=""></a>
+            </div>
+
+            <div class="blog">
+                <span>April 16, 2021, 6mins</span>
+                <h2>Design tips for designers, that cover everything you need</h2>
+                <a href="">Read the article <img src="./images/right arrow.svg" alt=""></a>
+            </div>
+
+            <div class="blog">
+                <span>April 16, 2021, 6mins</span>
+                <h2>Design tips for designers, that cover everything you need</h2>
+                <a href="">Read the article <img src="./images/right arrow.svg" alt=""></a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+Bloges CSS =>>>>> 
+
+
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    padding: 100px 100px;
+    gap: 300px;
+    
+}
+
+.blogs a{
+    color: #fff;
+}
+
+.blogs .blogs-left-side h6{
+    text-transform: lowercase;
+}
+
+.blog{
+    border-top: 0.1px solid #dedede;
+    margin-bottom: 40px;
+    padding: 40px 0;
+}
+
